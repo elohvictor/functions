@@ -1,0 +1,5 @@
+def validatePin(pin):
+    if pin == 1234 :
+        return True
+    else:
+        return False
