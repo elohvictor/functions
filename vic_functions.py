@@ -107,8 +107,6 @@ print("a = {} b = {} a+b = {}".format(a,b,result))
 sum = lambda arg1, arg2: arg1 + arg2;
 print("value of total:",sum(10,20))
 print("value of total:",sum(20,20))
-
-
 total = 0
 def sum(arg1, arg2):
     total = arg1 + arg2;

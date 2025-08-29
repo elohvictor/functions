@@ -31,16 +31,12 @@ elif (amount_purchase >= 50000):
     print(f"amount = {amount_purchase}")
     print(f"discount = {discount}")
     print(f"total amount = {amount_purchase - discount}")
-
-
 user_input = input("Enter username: ")
 pass_word = input("Enter password: ")
 if (costom_functions.validatePasswordLength(pass_word)==False):
     print("password must not be less than 6 characters")
 else:
     print("Access Denied")
-    
-
 year = int(input("Enter year: "))
 if (costom_functions.validateYearDates(year)==True):
     print("Ieap year")

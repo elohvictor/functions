@@ -1,5 +1,2 @@
-def validatePin(pin):
-    if pin == 1234 :
-        return True
-    else:
-        return False
+myList = ['laptop','android','halellujah']
+print(myList[1])
