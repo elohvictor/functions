@@ -1,18 +1,15 @@
-#returns discount on amount_purchase 
+
 def discountOnPurchase(amount_purchase,interest_rate):
     discount = (amount_purchase * interest_rate) /100
     return discount
 
-#returns the modulus of any number
 def modulusOfNumber(number1,number2):
     modulus = (number1 % number2)
     return modulus;
 
-#convert celsius to farhenheit
 def convertCelsiusToFarhenheit(temperature):
     return (temperature*9/5)+35
 
-#authentication
 def userLogin(user_name,password):
     return user_name=="admin" and password=="password123"
 
@@ -27,14 +24,14 @@ def validateYearDates(year):
 
 
     
-# amount = int(input('Enter amount_purchase:'))
-# rate = 3
-# discount_amount = discountOnPurchase(amount,rate)
-# print('discount amount =',discount_amount)
+amount = int(input('Enter amount_purchase:'))
+rate = 3
+discount_amount = discountOnPurchase(amount,rate)
+print('discount amount =',discount_amount)
 
 
-# number = modulusOfNumber(10,3)
-# print("modulus =",number)
+number = modulusOfNumber(10,3)
+print("modulus =",number)
 
 def validatePinLength(pin):
     if len(pin) == 4:
