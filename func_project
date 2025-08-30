@@ -1,5 +1,8 @@
-def validatePin(pin):
-    if pin == 1234 :
-        return True
-    else:
-        return False
+print(type(5))
+print(type(range(5)))
+print(type("i am a boy"))
+print(type(True))
+print(type(5+3j))
+print(type(3.89))
+print(type({"almond"}))
+print(type({"Name": "shola"}))
