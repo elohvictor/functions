@@ -17,7 +17,7 @@ elif(amount_purchase >= 8000 and amount_purchase < 10000):
     discount = costom_functions.discountOnPurchase(amount_purchase,5)
     print("5% discount")
     print(f"amount = {amount_purchase}")
-    print(f"discount = {disco}")
+    print(f"discount = {discount}")
     print(f"total amount = {amount_purchase - discount}")
 elif (amount_purchase >= 10000 and amount_purchase < 50000):
     discount = costom_functions.discountOnPurchase(amount_purchase,10)

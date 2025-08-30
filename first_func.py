@@ -1,8 +1,7 @@
-defining function
 def first_func():
     print("We did it!")
 first_func()
-position argument
+
 def number_squared(number):
     print(number**2)
 number_squared(5)
@@ -34,9 +33,6 @@ def greet(name):
 
 
 print(greet("Mosh"))
-perform a task
-return a value
-
 round(1.9)
 def get_greetings(name):
     return f"Hi {name}"
@@ -69,7 +65,6 @@ def save_user(**user):
     
 save_user(id=1, name="john", age=22)
 
-local variable
 def greet(name):
     message = "a"
     
